@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Lagos Money Clicker</string>
+    <string name="accessibility_description">Performs taps only at screen positions selected by you, while you control the floating start and stop controls.</string>
+</resources>
