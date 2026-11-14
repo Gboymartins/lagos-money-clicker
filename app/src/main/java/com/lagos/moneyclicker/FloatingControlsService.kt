@@ -68,7 +68,7 @@ class FloatingControlsService : Service() {
         }
         panel = box
         wm.addView(box, p)
-        box.setOnTouchListener(object : View.OnTouchListener {
+       heading.setOnTouchListener(object : View.OnTouchListener {
             var sx = 0f; var sy = 0f; var ox = 0; var oy = 0
             override fun onTouch(v: View, e: MotionEvent): Boolean {
                 if (e.action == MotionEvent.ACTION_DOWN) {
